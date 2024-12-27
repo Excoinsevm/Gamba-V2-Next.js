@@ -10,10 +10,10 @@ export default function Footer() {
           <a
             target="_blank"
             rel="noopener noreferrer"
-            href="https://gamba.so/"
+            href="#"
             className="flex items-center mb-4 sm:mb-0 space-x-3 rtl:space-x-reverse"
           >
-            <img src="/logo.svg" className="h-10" alt="Gamba Logo" />
+            <img src="https://raw.githubusercontent.com/PopCatRock/token-list/main/src/tokens/CoinLogos/0x0FC14d74b66EFa44AccBBe284cCdD356039e59dC.png" className="h-10" alt="Gamba Logo" />
           </a>
           <ul className="flex flex-wrap items-center mb-6 text-sm font-medium text-gray-500 sm:mb-0 dark:text-gray-400">
             {FOOTER_LINKS.map((link) => (
