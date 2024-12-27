@@ -48,13 +48,13 @@ export default function HomePage() {
           <div className="bg-[#15152e]/80 rounded-lg p-4 lg:col-span-2 text-center lg:text-left">
             <div className=" flex items-center justify-center md:justify-start">
               <h1 className="text-2xl md:text-4xl font-bold text-white drop-shadow-md">
-                Welcome to Gamba
+                Welcome to PopCasino
               </h1>
               <img src="/wave.gif" className="h-14" alt="Gamba Logo" />
             </div>
             <p className="my-2 text-white drop-shadow">
               The gambleFi protocol with end-to-end tools for on-chain
-              degeneracy on Solana.
+              degeneracy on Solana by PopSwap using Gamba.
             </p>
             <p className="my-2 text-sm max-w-sm">
               Share your link to earn a {PLATFORM_REFERRAL_FEE * 100}% fee on
@@ -74,7 +74,7 @@ export default function HomePage() {
               }
               className="rounded-lg p-3 bg-white hover:bg-gray-200 hover:-translate-y-0.5 transform text-black transition-all duration-200 ease-in-out cursor-pointer shadow-lg hover:shadow-xl"
             >
-              Buy on Raydium (Soon)
+              Buy on Raydium, Soon
             </button>
             <button
               onClick={() => window.open("https://popswap.click/#/swap/?outputCurrency=0x0fc14d74b66efa44accbbe284ccdd356039e59dc")}
@@ -89,10 +89,10 @@ export default function HomePage() {
               Bitrock Chart
             </button>
             <button
-              onClick={() => window.open("https://discord.com/invite/HSTtFFwR")}
+              onClick={() => window.open("#")}
               className="rounded-lg p-3 bg-white hover:bg-gray-200 hover:-translate-y-0.5 transform text-black transition-all duration-200 ease-in-out cursor-pointer shadow-lg hover:shadow-xl"
             >
-              Solana Chart
+              Solana Chart, Soon
             </button>
           </div>
         </div>
