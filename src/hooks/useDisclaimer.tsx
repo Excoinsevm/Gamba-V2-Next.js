@@ -50,11 +50,11 @@ export function useDisclaimer() {
             </li>
             <li className="text-lg">
               <span className="font-bold">5. Limitation of Liability:</span>{" "}
-              We&apos;re not liable for damages.
+              Neither PopSwap or Gamba are liable for damages.
             </li>
             <li className="text-lg">
               <span className="font-bold">6. Licensing Disclaimer:</span> Not a
-              licensed casino; for simulation only.
+              licensed casino; use with caution
             </li>
             <li className="text-lg">
               <span className="font-bold">7. Fair Play:</span> Games are
