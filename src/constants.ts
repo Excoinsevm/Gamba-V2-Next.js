@@ -27,26 +27,26 @@ export const LIVE_EVENT_TOAST = true;
 
 export const FOOTER_LINKS = [
   {
-    href: "https://github.com/BankkRoll/Gamba-V2-Next.js",
-    title: "👨‍💻 Build your own",
+    href: "#",
+    title: "Buy on Raydium (Soon)",
   },
   {
-    href: "https://explorer.gamba.so/create",
-    title: "🚀 Create Pool",
+    href: "https://popswap.click/#/swap/?outputCurrency=0x0fc14d74b66efa44accbbe284ccdd356039e59dc",
+    title: "Buy on PopSwap",
   },
   {
-    href: "https://gamba.so/docs",
-    title: "📖 Gamba Docs",
+    href: "https://t.me/PopCatRock",
+    title: "Telegram",
   },
   {
-    href: "https://discord.com/invite/HSTtFFwR",
-    title: "💬 Join Discord",
+    href: "https://t.me/PopSwapBitrock",
+    title: "PSWAP telegram",
   },
 ];
 
 export const FOOTER_TWITTER_LINK = {
-  href: "https://twitter.com/bankkroll_eth",
-  title: "© 2024 Template made with ❤️ by Bankk",
+  href: "https://twitter.com/popcatrock",
+  title: "© 2024 PopCatRock All rights reserved",
 };
 
 /******************************************
@@ -56,14 +56,14 @@ export const FOOTER_TWITTER_LINK = {
  ******************************************/
 
 export const BASE_SEO_CONFIG = {
-  defaultTitle: "Gamba - NEXTjs Demo",
+  defaultTitle: "PopCasino - Solana",
   description:
     "The gambleFi protocol with end-to-end tools for on-chain degeneracy on Solana.",
   openGraph: {
     type: "website",
     locale: "en_US",
     url: "https://play-gamba.vercel.app/",
-    title: "Gamba - NEXTjs Demo",
+    title: "PopCasino - Solana",
     description:
       "The gambleFi protocol with end-to-end tools for on-chain degeneracy on Solana.",
     images: [
@@ -118,15 +118,15 @@ export const TOKENLIST = [
     decimals: 9,
     baseWager: 0.01e9,
   },
-  // GUAC
+  // POP
   {
-    mint: new PublicKey("AZsHEMXd36Bj1EMNXhowJajpUXzrKcK57wW4ZGXVa7yR"),
-    name: "Guacamole",
-    symbol: "GUAC",
+    mint: new PublicKey("64bUex5TqdCxpHf8s61UAiTnSB9GUdKbs3KJkNao7NKW"),
+    name: "PopSwap",
+    symbol: "PSWAP",
     image:
-      "https://bafkreiccbqs4jty2yjvuxp5x7gzgepquvv657ttauaqgxfhxghuz5us54u.ipfs.nftstorage.link/",
-    decimals: 5,
-    baseWager: 2000000e5,
+      "https://raw.githubusercontent.com/PopCatRock/token-list/main/src/tokens/CoinLogos/0x0FC14d74b66EFa44AccBBe284cCdD356039e59dC.png",
+    decimals: 8,
+    baseWager: 0.01e9,
   },
 
   // Add New Public pool
